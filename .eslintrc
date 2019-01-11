@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": ["xo/esnext", "xo/browser"],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "comma-dangle": ["error", "only-multiline"],
+    "arrow-parens": ["error", "always"],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
